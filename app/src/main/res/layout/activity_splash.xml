@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.ramuday.FoodY.activity.SplashActivity">
+
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_above="@+id/txtAppName"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/app_logo1" />
+
+    <TextView
+        android:id="@+id/txtAppName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center"
+        android:text="@string/foody"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtDevloper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/made_by_mcetian_2018_2022"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_below="@+id/txtAppName"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:id="@+id/txtAmanShankar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_1_aman_shankar"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:layout_below="@+id/txtDevloper"
+        android:layout_marginLeft="140dp"
+        />
+    <TextView
+        android:id="@+id/txtSupriye"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_2_supriye_anand"
+        android:layout_below="@+id/txtAmanShankar"
+        android:textSize="15dp"
+        android:layout_marginLeft="140dp"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:id="@+id/txtRamUdayKumar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_3_ram_uday_kumar"
+        android:layout_below="@+id/txtSupriye"
+        android:textSize="15dp"
+        android:layout_marginLeft="140dp"
+        android:textColor="#000000"/>
+    <TextView
+        android:id="@+id/txtKaushikDebnath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_4_kaushik_debnath"
+        android:layout_below="@+id/txtRamUdayKumar"
+        android:textSize="15dp"
+        android:layout_marginLeft="140dp"
+        android:textColor="#000000"/>
+    <TextView
+        android:id="@+id/txtRanit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_5_ranit_biswas"
+        android:layout_below="@+id/txtKaushikDebnath"
+        android:textSize="15dp"
+        android:layout_marginLeft="140dp"
+        android:textColor="#000000"/>
+
+</RelativeLayout>
